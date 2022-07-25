@@ -30,7 +30,7 @@ body {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 16px;
 
 }
 
@@ -69,7 +69,8 @@ body {
   justify-content: space-between;
   width: 247px;
   margin: 0px;
-  margin-top: 25px;
+  margin-top: 10px;
+
 }
 
 .info-btn-email {
@@ -88,7 +89,9 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 text-align: left;
-
+background-color: white;
+text-decoration: none;
+color: initial;
 }
 
 .info-btn-link {
@@ -111,6 +114,7 @@ text-align: left;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-decoration: none;
 }
 
 .fa-envelope .fa-linkedin { margin-right: 1em }
@@ -151,4 +155,19 @@ text-align: left;
   font-size: 40px;
   color: #918E9B;
   border-radius: 0px 0px 10px 10px;
+  text-decoration: none;
+
+
+
 };
+
+a:-webkit-any-link:before {
+ text-decoration: none;
+ color:yellow;
+}
+
+a { text-decoration: none; color: inherit; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }

@@ -11,8 +11,8 @@ function Info() {
           <h3>Junior Software Developer</h3>
         </div>
         <div className='info-btn'>
-          <button className='info-btn-email'><i class="fa fa-envelope"></i>Email</button>
-          <button className='info-btn-link'><i class="fab fa-linkedin"></i>LinkedIn</button>
+          <a className='info-btn-email' href='mailto:haydenjwalker1@gmail.com' ><i class="fa fa-envelope"></i>Email</a>
+          <a className='info-btn-link' href='https://www.linkedin.com/in/hwalk1/'><i class="fab fa-linkedin"></i>LinkedIn</a>
         </div>
       </div>
     </div>
