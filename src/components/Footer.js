@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <h1>Footer here</h1>
+    <div className="footer--main">
+      <i class="fab fa-github-square"></i>
+      <i class="fab fa-twitter-square"></i>
+    </div>
   );
 };
 
