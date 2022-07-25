@@ -7,11 +7,11 @@ import Interests from "./components/Interests";
 
 function App() {
   return (
-    <div>
+    <div className = 'app-main'>
       <Info />
       <About />
-      <Footer />
       <Interests />
+      <Footer />
     </div>
   );
 };
